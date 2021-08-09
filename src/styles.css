@@ -1,0 +1,46 @@
+p {
+  color: white;
+}
+
+body {
+  background-color: rgb(50, 6, 88);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contenedor {
+  width: 80;
+  margin: auto;
+}
+
+.caja {
+  border: 2px white solid;
+  padding: 50 px ;
+  margin: 15 px;
+}
+
+.caja-2 {
+border: 2px white dotted;
+padding: 50 px ;
+margin : 15px;
+
+}
+.caja-3 {
+border: 2px white double;
+margin : 20px;
+border-radius: 15px;
+}
+
+
+.contenedor-2
+{
+float:left;
+width: 33%;
+margin-right: 2px;
+}
+
+.galeria
+{
+width: 100%;
+height: auto;
+}
