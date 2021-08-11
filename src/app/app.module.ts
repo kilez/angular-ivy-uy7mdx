@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { HeaderModule } from './shared/componets/header/header.module';
+import { AppRoutingModule } from './app-routing.module';
+import { HeaderComponent } from './shared/componets/header/header.component';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HeaderModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  imports:      [ BrowserModule, FormsModule,AppRoutingModule],
+  declarations: [ AppComponent, HelloComponent,HeaderComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
